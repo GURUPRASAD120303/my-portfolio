@@ -14,7 +14,7 @@ const Internships = () => {
         "Worked on end-to-end data workflows, improving insights for decision-making."
       ],
       "skills": ["Python", "SQL", "Power BI", "Data Visualization", "Statistical Analysis"],
-      "verifyLink": "assets/6sLBoXcgy.pdf",
+      "verifyLink": "assets/Data-Scientist.pdf",
       "color": "blue",
       "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEBQ0ItUQd9GA/company-logo_200_200/company-logo_200_200/0/1662036891199/devtown_in_logo?e=2147483647&v=beta&t=Hf-n88vMkzoJomBFugU4iUTFhH9ZNGu0Z1pZdv7dWPY"
     },    
@@ -29,7 +29,7 @@ const Internships = () => {
         "Integrated AI-based features into web solutions, improving functionality and user engagement."
       ],
       "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "UI/UX Development"],
-      "verifyLink": "assets/Internship-certificate.png",
+      "verifyLink": "assets/Front-End.png",
       "credentialId": "FEHLMKPX",
       "color": "orange",
       "logo": "https://internship.suvenconsultants.com/images/sctpl_logo.png"
@@ -109,7 +109,7 @@ const Internships = () => {
 
               {/* ✅ Verify Box (Bottom Right) */}
               {internship.verifyLink && (
-                <div className="absolute bottom-4 right-4 md:static md:flex md:justify-end mt-4">
+                <div className="mt-4 flex justify-start md:absolute md:bottom-4 md:right-4">
                   <a
                     href={internship.verifyLink}
                     target="_blank"

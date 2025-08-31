@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Trophy, FileText, ExternalLink } from "lucide-react";
 
+
 const Accomplishments = () => {
   const accomplishments = [
     {
@@ -11,7 +12,7 @@ const Accomplishments = () => {
       type: "Competition",
       icon: <Trophy className="w-8 h-8" />,
       color: "blue",
-      link: "assets/GURU PRASAD R .jpg", // ✅ Add link here
+      link: "assets/Hackathon.jpg", // ✅ Add link here
     },
     {
       title: "Research Paper Publication",
@@ -21,7 +22,7 @@ const Accomplishments = () => {
       type: "Research",
       icon: <FileText className="w-8 h-8" />,
       color: "green",
-      link: "assets/GURU PRASAD R(7)_page-0001.jpg", // ✅ Add link here
+      link: "assets/research-paper.jpg", // ✅ Add link here
     },
   ];
 
@@ -124,7 +125,7 @@ const Accomplishments = () => {
 
                   {/* ✅ View Button Bottom Right */}
                   {accomplishment.link && (
-                    <div className="absolute bottom-4 right-4">
+                    <div className="mt-4 flex justify-start md:absolute md:bottom-4 md:right-4">
                       <a
                         href={accomplishment.link}
                         target="_blank"
