@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import IntroScreen from './components/IntroScreen';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -18,10 +17,6 @@ function App() {
   const handleIntroComplete = () => {
     setShowIntro(false);
   };
-
-  if (showIntro) {
-    return <IntroScreen onComplete={handleIntroComplete} />;
-  }
 
   return (
     <div className="min-h-screen bg-white">

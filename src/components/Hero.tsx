@@ -5,7 +5,7 @@ const Hero = () => {
   const [imgError, setImgError] = useState(false);
 
   // Your Google Drive image converted to direct link
-  const avatarUrl = "assets/picture.jpg";
+  const avatarUrl = "assets/picture.webp";
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 flex items-center justify-center px-4 py-20">
